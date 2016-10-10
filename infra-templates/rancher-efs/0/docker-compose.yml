@@ -1,7 +1,7 @@
 efs-driver:
   privileged: true
   net: host
-  image: jimeng/storage-efs:v0.0.2
+  image: jimeng/storage-efs:v0.0.3
   pid: host
   labels:
     io.rancher.scheduler.global: 'true'
